@@ -1,0 +1,2205 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects &#8211; Architecture</title>
+    <link rel="preload"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/uploads/typolab-fonts/google/heebo-2da63/ngspv5_nc0k9p_v6zucblrahxk1e1yysdumg7uicxb5w.woff"
+        as="font" type="font/woff" crossorigin>
+    <meta name="robots" content="max-image-preview:large" />
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Projects">
+    <meta property="og:url" content="https://demo.kaliumtheme.com/architecture/our-projects/">
+    <meta property="og:site_name" content="Architecture">
+    <link rel="stylesheet" id="wp-block-library-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3"
+        media="all" />
+    <style id="classic-theme-styles-inline-css">
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id="global-styles-inline-css">
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .wp-block-navigation a:where(:not(.wp-element-button)) {
+            color: inherit;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        .wp-block-pullquote {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
+    <link rel="stylesheet" id="js_composer_front-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=7.5"
+        media="all" />
+    <link rel="stylesheet" id="kalium-bootstrap-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/bootstrap.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-theme-base-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/base.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-theme-style-new-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/new/style.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-theme-other-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/other.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-theme-portfolio-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/portfolio.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-css-loaders-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/admin/css/css-loaders.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-style-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/style.css?ver=3.12.001" media="all" />
+    <link rel="stylesheet" id="custom-skin-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/css/custom-skin.css?ver=be751af3c67b0477126662c874b23ead"
+        media="all" />
+    <link rel="stylesheet" id="typolab-heebo-font-font-3-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/uploads/typolab-fonts/heebo-d57.css?ver=3.12"
+        media="all" />
+    <script type="text/javascript">
+        var ajaxurl = ajaxurl || 'https://demo.kaliumtheme.com/architecture/wp-admin/admin-ajax.php';
+    </script>
+    <style data-custom-selectors>
+        h1,
+        .h1,
+        .page-heading h1,
+        h2,
+        .h2,
+        .page-heading h2,
+        h3,
+        .h3,
+        .page-heading h3,
+        h4,
+        .h4,
+        .page-heading h4,
+        h5,
+        .h5,
+        .page-heading h5,
+        h6,
+        .h6,
+        .page-heading h6 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        body,
+        p {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px
+        }
+
+        .section-title p {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav div.menu>ul ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu .search-form label,
+        .main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light .search-form .search-field {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul.menu ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav div.menu>ul ul ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul.menu ul ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav div.menu>ul ul ul ul li a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul.menu ul ul ul li a {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 32px
+        }
+
+        .contact-form .button,
+        .form-submit .button {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px
+        }
+
+        .single-portfolio-holder .details .services h3 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        .labeled-input-row label,
+        .labeled-textarea-row label {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        .section-title h1,
+        .page-title-size h1,
+        .section-title h2,
+        .page-title-size h2 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        @media screen and (max-width:768px) {
+
+            .section-title h1,
+            .page-title-size h1,
+            .section-title h2,
+            .page-title-size h2 {
+                font-size: 32px
+            }
+        }
+
+        .blog .page-heading--title {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        @media screen and (max-width:768px) {
+            .blog .page-heading--title {
+                font-size: 32px
+            }
+        }
+
+        .single-post .post .entry-header .post-title {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        @media screen and (max-width:768px) {
+            .single-post .post .entry-header .post-title {
+                font-size: 32px
+            }
+        }
+
+        .single-portfolio-holder .title h1 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        @media screen and (max-width:768px) {
+            .single-portfolio-holder .title h1 {
+                font-size: 32px
+            }
+        }
+
+        .single-portfolio-holder.portfolio-type-5 .portfolio-description-container .portfolio-description-showinfo h3 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 48px
+        }
+
+        .single-post .post .post-meta,
+        .blog-posts .post-item .post-details .post-meta {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px
+        }
+
+        .product-filter ul li a {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px
+        }
+
+        .post-navigation a i,
+        .post-navigation a strong {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px
+        }
+
+        @media screen and (max-width:768px) {
+
+            .post-navigation a i,
+            .post-navigation a strong {
+                font-size: 16px
+            }
+        }
+
+        .single-post .post-comments--section-title h2 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        .mobile-menu-wrapper .mobile-menu-container div.menu>ul>li>a,
+        .mobile-menu-wrapper .mobile-menu-container ul.menu>li>a,
+        .mobile-menu-wrapper .mobile-menu-container .cart-icon-link-mobile-container a,
+        .mobile-menu-wrapper .mobile-menu-container .search-form input,
+        .mobile-menu-wrapper .mobile-menu-container div.menu>ul>li ul>li>a,
+        .mobile-menu-wrapper .mobile-menu-container ul.menu>li ul>li>a {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px
+        }
+
+        @media screen and (max-width:768px) {
+
+            .mobile-menu-wrapper .mobile-menu-container div.menu>ul>li>a,
+            .mobile-menu-wrapper .mobile-menu-container ul.menu>li>a,
+            .mobile-menu-wrapper .mobile-menu-container .cart-icon-link-mobile-container a,
+            .mobile-menu-wrapper .mobile-menu-container .search-form input,
+            .mobile-menu-wrapper .mobile-menu-container div.menu>ul>li ul>li>a,
+            .mobile-menu-wrapper .mobile-menu-container ul.menu>li ul>li>a {
+                font-size: 32px
+            }
+        }
+
+        h2 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        @media screen and (max-width:768px) {
+            h2 {
+                font-size: 24px
+            }
+        }
+
+        .blog-posts .post-item .post-details .post-title {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        @media screen and (max-width:768px) {
+            .blog-posts .post-item .post-details .post-title {
+                font-size: 22px
+            }
+        }
+
+        .show-more .reveal-button a {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 26px
+        }
+
+        .project-link-1 {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px
+        }
+
+        .contact-form-privacy-policy label {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300
+        }
+
+        .sidebar-menu-wrapper .sidebar-menu-container .sidebar-main-menu div.menu>ul>li>a,
+        .sidebar-menu-wrapper .sidebar-menu-container .sidebar-main-menu ul.menu>li>a {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px
+        }
+
+        .sidebar-menu-widgets .widgettitle {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 24px
+        }
+
+        .site-footer .footer-bottom-content a,
+        .site-footer .footer-bottom-content p {
+            font-family: "Heebo";
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px
+        }
+    </style>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js"></script>
+    <script></script>
+    <link rel="canonical" href="https://demo.kaliumtheme.com/architecture/our-projects/" />
+    <link rel="shortlink" href="https://demo.kaliumtheme.com/architecture/?p=3283" />
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MWCJP9P');</script>
+
+    <style id="theme-custom-css">
+        .button:active {
+            box-shadow: none;
+        }
+
+        .go-to-top {
+            background-color: transparent;
+        }
+
+        .go-to-top i {
+            color: #000000;
+            -moz-transition: all .2s linear;
+            -webkit-transition: all .2s linear;
+            -o-transition: all .2s linear;
+            transition: all .2s linear;
+        }
+
+        .go-to-top i:hover {
+            transform: scale(1.15);
+            -ms-transform: scale(1.15);
+            -webkit-transform: scale(1.15);
+        }
+
+        .go-to-top i:before {
+            content: "➝";
+            font-size: 30px;
+        }
+
+        .go-to-top.visible {
+            opacity: 1;
+            -webkit-transform: rotate(-90deg) scale(1);
+            transform: rotate(-90deg) scale(1);
+        }
+
+        .go-to-top.visible:hover {
+            background-color: transparent;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry {
+            border: none;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container {
+            padding: 30px 20px;
+        }
+
+        .wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-content-container {
+            padding: 20px;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-content-container .blog-post-title {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .homepage-welcome {
+            padding: 50px 0 35px 0;
+        }
+
+        .homepage-news {
+            padding: 50px 0;
+        }
+
+        .homepage-service {
+            padding: 50px 0;
+        }
+
+        .auto-type-element h1 {
+            margin-top: 0px;
+        }
+
+        .auto-type-element>p {
+            display: none;
+        }
+
+        .wpb_wrapper .lab-portfolio-items .portfolio-title-holder {
+            margin-bottom: 0px;
+        }
+
+        .portfolio-holder .item-box .info h3 a {
+            color: #000;
+        }
+
+        .toggle-bars.menu-skin-light .toggle-bars__bar-line,
+        .toggle-bars.menu-skin-light .toggle-bars__bar-line {
+            background-color: #000;
+        }
+
+        .toggle-bars .toggle-bars__bar-line,
+        .toggle-bars .toggle-bars__bar-line {
+            width: 30px;
+            height: 1px;
+            -webkit-transition: all ease .15s;
+            transition: all ease .15s;
+        }
+
+        .toggle-bars .toggle-bars__bar-line.toggle-bars__bar-line--top {
+            top: 3px;
+        }
+
+        .toggle-bars .toggle-bars__bar-line.toggle-bars__bar-line--bottom {
+            top: 16px;
+        }
+
+        .toggle-bars:hover .toggle-bars__bar-line.toggle-bars__bar-line--bottom {
+            top: 18px;
+        }
+
+        .toggle-bars:hover .toggle-bars__bar-line.toggle-bars__bar-line--top {
+            top: 1px;
+        }
+
+        .toggle-bars .toggle-bars__bar-line.toggle-bars__bar-line--middle {
+            height: 0px;
+        }
+
+        .toggle-bars.exit .toggle-bars__bar-line.toggle-bars__bar-line--top {
+            top: 8px;
+        }
+
+        .toggle-bars.exit .toggle-bars__bar-line.toggle-bars__bar-line--bottom {
+            top: 8px;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part+.left-part,
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part,
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .left-part {
+            width: 100%;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light .full-menu-footer .container {
+            border-top: none;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .right-part {
+            float: none;
+            text-align: left;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light nav div.menu>ul>li>a:after,
+        .main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light nav ul.menu>li>a:after {
+            display: none;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul li a:hover,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul li.current-menu-item a,
+        .main-header.menu-type-full-bg-menu .full-screen-menu nav ul li.current_page_item a {
+            color: #BBB;
+        }
+
+        .social-networks {
+            margin-bottom: 20px;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .social-networks li a {
+            width: 30px;
+            height: 30px;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu .full-menu-footer .social-networks li a i {
+            font-size: 16px;
+        }
+
+        .mobile-menu-wrapper .mobile-menu-container div.menu>ul li.menu-item-has-children>a:after,
+        .mobile-menu-wrapper .mobile-menu-container ul.menu li.menu-item-has-children>a:after {
+            font-size: 14px;
+        }
+
+        .main-header.menu-type-full-bg-menu .full-screen-menu.menu-skin-light.translucent-background,
+        .mobile-menu-wrapper.mobile-menu-fullscreen+.mobile-menu-overlay {
+            background-color: rgba(255, 255, 255, .97) !important;
+        }
+
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container div.menu>ul>li>a,
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container ul.menu>li>a {
+            color: #333 !important;
+        }
+
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container div.menu>ul>li ul>li>a,
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container ul.menu>li ul>li>a {
+            color: #898989 !important;
+        }
+
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container .search-form input {
+            color: #222;
+        }
+
+        .mobile-menu-wrapper.mobile-menu-fullscreen .mobile-menu-container .search-form input:focus+label {
+            color: #222;
+        }
+
+        .portfolio-holder .thumb .hover-state .info p a:hover {
+            color: #898989;
+        }
+
+        .show-more .reveal-button {
+            border: none;
+            margin: 0px;
+            min-width: 0;
+        }
+
+        .show-more .reveal-button a {
+            color: #000;
+            padding: 0px;
+        }
+
+        .show-more {
+            text-align: left;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin: 0px;
+        }
+
+        .lab-portfolio-items .show-more {
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 0px;
+        }
+
+        .portfolio-navigation .flaticon-arrow413:before {
+            content: "➝";
+        }
+
+        .portfolio-navigation .flaticon-arrow427:before {
+            content: "➝";
+        }
+
+        .portfolio-big-navigation .flaticon-arrow427:before {
+            content: "➝";
+        }
+
+        .portfolio-big-navigation .flaticon-arrow413:before {
+            content: "➝";
+        }
+
+        .single-portfolio-holder .portfolio-big-navigation i {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        .single-portfolio-holder .portfolio-big-navigation .adjacent-post-link--arrow-right i {
+            -webkit-transform: none;
+            transform: none;
+        }
+
+        .single-portfolio-holder .portfolio-navigation a.previous {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        body.single-post .post-navigation .flaticon-arrow427 {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            display: inline-block;
+        }
+
+        .post-navigation--next .post-navigation--arrow,
+        .slick-prev {
+            padding-left: 20px;
+            padding-right: 0px;
+            -webkit-transform: rotate(180deg) scale(1);
+            transform: rotate(180deg) scale(1);
+        }
+
+        .single-portfolio-holder.portfolio-type-3 i {
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        .single-portfolio-holder.portfolio-type-3 .gallery-slider .slick-prev {
+            left: 200px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+        .single-portfolio-holder.portfolio-type-3 .gallery-slider .slick-next {
+            right: 200px;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+        }
+
+        .single-portfolio-holder.portfolio-type-3 .slick-prev i:before {
+            content: "➝";
+        }
+
+        .single-portfolio-holder.portfolio-type-3 .slick-next i:before {
+            content: "➝";
+        }
+
+        .projects-page.lab-portfolio-items .portfolio-title-holder {
+            padding: 25px 0px 35px 0px;
+            margin-bottom: 0px;
+        }
+
+        .single-portfolio-holder .details .services .checklist-entry {
+            margin-top: 0;
+        }
+
+        .project-link-1 a {
+            color: #000;
+        }
+
+        .single-portfolio-holder .details .link a:hover {
+            color: #000;
+        }
+
+        .single-portfolio-holder .details .link .project-multiple-links:after {
+            content: "➝";
+        }
+
+        .single-portfolio-holder .social-links-rounded .social-share-icon {
+            width: 38px;
+            height: 38px;
+        }
+
+        .services-row {
+            padding: 50px 0;
+        }
+
+        .studio-awards,
+        .studio-press {
+            padding: 50px 0;
+        }
+
+        .team-member {
+            margin-bottom: 35px;
+        }
+
+        .members {
+            padding-top: 50px;
+        }
+
+        .page-heading--title-section {
+            display: flex;
+            flex-flow: row;
+            padding-top: 25px;
+            padding-bottom: 10px;
+            margin: 0px;
+        }
+
+        .blog .page-heading--title {
+            width: 50%;
+        }
+
+        .blog .page-heading--description {
+            width: 50%;
+        }
+
+        .single-post .post-comments {
+            margin-top: -1px;
+        }
+
+        .blog-posts .post-item.columned .post-thumbnail {
+            min-width: 500px;
+            max-width: 500px;
+        }
+
+        .blog .page-heading {
+            margin-top: 0;
+        }
+
+        .blog-posts .post-item.columned .post-thumbnail {
+            margin-right: 70px;
+        }
+
+        .wpb_wrapper .lab-blog-posts .blog-post-entry .blog-post-image a .hover-display.no-opacity,
+        .blog-posts .post-item .post-thumbnail .post-hover.post-hover--no-opacity {
+            background-color: rgba(255, 255, 255, 0.75);
+        }
+
+        .post-navigation a i,
+        .post-navigation a strong {
+            color: #000;
+        }
+
+        .post-navigation__column .flaticon-arrow427:before {
+            content: "➝";
+        }
+
+        .post-navigation__column .flaticon-arrow413:before {
+            content: "➝";
+        }
+
+        .single-post .post .post-navigation {
+            border-top: 1px solid #EEE;
+            border-bottom: 1px solid #EEE;
+            padding-top: 25px;
+            padding-bottom: 25px;
+            margin-bottom: 0px;
+        }
+
+        .single-post .comment-respond .comment-form>p.form-submit {
+            text-align: right;
+        }
+
+        .post-comment-form {
+            padding-top: 20px;
+        }
+
+        .single-post .comment-form>p.form-submit {
+            text-align: left;
+        }
+
+        .contact-row {
+            padding-top: 50px;
+        }
+
+        .labeled-input-row input {
+            border-bottom-color: #CCC;
+        }
+
+        .labeled-textarea-row textarea {
+            background-image: linear-gradient(#CCC 1px, transparent 1px);
+        }
+
+        .contact-form-privacy-policy input[type="checkbox"],
+        .alternate-radio:before {
+            border-color: #ccc;
+        }
+
+        .labeled-input-row label,
+        .labeled-textarea-row label {
+            border-bottom: 1px solid #000;
+        }
+
+        .contact-form .button,
+        .form-submit .button {
+            padding: 0px;
+            color: #000;
+            background: transparent;
+        }
+
+        .contact-form .button:hover,
+        .form-submit .button:hover {
+            color: #fabc28;
+        }
+
+        footer.main-footer {
+            background-color: transparent !important;
+        }
+
+        .logos-holder .c-logo {
+            background-color: #fff;
+        }
+
+        .logos-holder.no-image-borders .c-logo {
+            margin-bottom: 30px;
+        }
+
+        .example {
+            color: red !important;
+        }
+
+        @media screen and (max-width: 768px) {
+            .wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-image {
+                padding-right: 0px;
+            }
+
+            .wpb_wrapper .lab-blog-posts.posts-layout-left .blog-post-entry .blog-post-content-container {
+                padding: 0px;
+                padding-top: 20px;
+            }
+
+            .homepage-welcome {
+                padding: 35px 0;
+            }
+
+            .homepage-news {
+                padding: 35px 0;
+            }
+
+            .homepage-service {
+                padding: 35px 0;
+            }
+
+            .projects-page.lab-portfolio-items .portfolio-title-holder {
+                padding: 25px 0px 0px 0px;
+                margin-bottom: 0px;
+            }
+
+            .blog-posts .post-item.columned .post-thumbnail {
+                min-width: 100%;
+                max-width: 100%;
+            }
+
+            .page-heading--title-section {
+                flex-flow: column;
+            }
+
+            .blog .page-heading--title {
+                width: 100%;
+            }
+
+            .blog .page-heading--description {
+                width: 100%;
+            }
+
+            .post-navigation--label em {
+                top: 0;
+                opacity: 1;
+            }
+
+            .single-post .post-comments:before {
+                right: 30px;
+                border-width: 25px 25px 0 0;
+            }
+
+            .post-navigation a {
+                max-width: 30%;
+            }
+
+            .single-post .post-comments+.post-comment-form .comment-respond {
+                padding-top: 0px;
+            }
+
+            .single-post .post-comments {
+                padding: 35px 0;
+            }
+
+            .comment-reply-title {
+                margin-top: 0px;
+            }
+
+            .post-comment-form {
+                padding-top: 35px;
+            }
+
+            .blog-posts .post-item.columned .post-thumbnail {
+                margin-bottom: 35px;
+            }
+
+            .post-navigation--label strong {
+                top: 0;
+            }
+
+            .awards-and-press-column {
+                padding-top: 35px;
+            }
+
+            .services-row {
+                padding: 35px 0;
+            }
+
+            .studio-awards,
+            .studio-press {
+                padding: 35px 0;
+            }
+
+            .team-member {
+                margin-bottom: 35px;
+            }
+
+            .members {
+                padding-top: 35px;
+            }
+
+            .contact-row {
+                padding-top: 35px;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .blog .page-heading--title {
+                width: 100%;
+            }
+
+            .blog .page-heading--description {
+                width: 100%;
+            }
+
+            .blog-posts .post-item.columned .post-thumbnail {
+                min-width: 290px;
+                max-width: 290px;
+            }
+        }
+
+        @media screen and (min-width: 992px) {
+            .blog .page-heading--title {
+                width: 100%;
+            }
+
+            .blog .page-heading--description {
+                width: 100%;
+            }
+
+            .blog-posts .post-item.columned .post-thumbnail {
+                min-width: 400px;
+                max-width: 400px;
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .blog-posts .post-item.columned .post-thumbnail {
+                min-width: 500px;
+                max-width: 500px;
+            }
+        }
+    </style>
+    <meta name="theme-color" content="#fbc441">
+    <link rel="shortcut icon"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/favicon-black-1.png">
+    <script>var mobile_menu_breakpoint = 768;</script>
+    <style data-appended-custom-css="true">
+        @media screen and (min-width:769px) {
+
+            .mobile-menu-wrapper,
+            .mobile-menu-overlay,
+            .header-block__item--mobile-menu-toggle {
+                display: none;
+            }
+        }
+    </style>
+    <style data-appended-custom-css="true">
+        @media screen and (max-width:768px) {
+            .header-block__item--standard-menu-container {
+                display: none;
+            }
+        }
+    </style>
+    <style>
+        .recentcomments a {
+            display: inline !important;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    </style><noscript>
+        <style>
+            .wpb_animate_when_almost_visible {
+                opacity: 1;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body class="page-template-default page page-id-3283 wpb-js-composer js-comp-ver-7.5 vc_responsive">
+
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWCJP9P" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="mobile-menu-wrapper mobile-menu-fullscreen">
+        <div class="mobile-menu-container">
+            <ul id="menu-main-menu" class="menu">
+                <li id="menu-item-4174"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-4174">
+                    <a href="https://demo.kaliumtheme.com/architecture/">Home</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-4514"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4514"><a
+                                href="https://demo.kaliumtheme.com/architecture/home-two/">Home Two</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-3285"
+                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3283 current_page_item menu-item-3285">
+                    <a href="https://demo.kaliumtheme.com/architecture/our-projects/" aria-current="page">Projects</a>
+                </li>
+                <li id="menu-item-3441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441">
+                    <a href="https://demo.kaliumtheme.com/architecture/studio/">Studio</a></li>
+                <li id="menu-item-3847" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3847">
+                    <a href="https://demo.kaliumtheme.com/architecture/news/">News</a></li>
+                <li id="menu-item-3442"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3442">
+                    <a href="https://demo.kaliumtheme.com/architecture/contact/">Contact</a>
+                    <ul class="sub-menu">
+                        <li id="menu-item-4024"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024"><a
+                                href="https://demo.kaliumtheme.com/architecture/contact-two/">Contact Two</a></li>
+                    </ul>
+                </li>
+                <li id="menu-item-3585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3585">
+                    <a target="_blank" rel="noopener" href="https://1.envato.market/KYm9a">Purchase ➝</a></li>
+            </ul>
+            <form role="search" method="get" class="search-form" action="https://demo.kaliumtheme.com/architecture/">
+                <input type="search" class="search-field" placeholder="Search site..." value name="s"
+                    id="search_mobile_inp" />
+                <label for="search_mobile_inp">
+                    <i class="fa fa-search"></i>
+                </label>
+                <input type="submit" class="search-submit" value="Go" />
+            </form>
+            <a href="#" class="mobile-menu-close-link toggle-bars exit menu-skin-light" role="button"
+                aria-label="Close">
+                <span class="toggle-bars__column">
+                    <span class="toggle-bars__bar-lines">
+                        <span class="toggle-bars__bar-line toggle-bars__bar-line--top"></span>
+                        <span class="toggle-bars__bar-line toggle-bars__bar-line--middle"></span>
+                        <span class="toggle-bars__bar-line toggle-bars__bar-line--bottom"></span>
+                    </span>
+                </span>
+            </a>
+        </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+    <div class="wrapper" id="main-wrapper">
+        <header class="site-header main-header menu-type-full-bg-menu">
+            <div class="header-block">
+                <div class="header-block__row-container container">
+                    <div class="header-block__row header-block__row--main">
+                        <div class="header-block__column header-block__logo header-block--auto-grow">
+                            <style data-appended-custom-css="true">
+                                .logo-image {
+                                    width: 209px;
+                                    height: 45px;
+                                }
+                            </style> <a href="https://demo.kaliumtheme.com/architecture" class="header-logo logo-image">
+                                <img src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/logo4.png"
+                                    class="main-logo" width="209" height="45" alt="Kalium" />
+                            </a>
+                        </div>
+                        <div class="header-block__column header-block--content-right header-block--align-right">
+                            <div class="header-block__items-row">
+                                <div class="header-block__item header-block__item--type-open-fullscreen-menu"><a
+                                        href="#" class="toggle-bars menu-skin-light" aria-label="Toggle navigation"
+                                        role="button" data-action="fullscreen-menu" data-default-skin="menu-skin-light"
+                                        data-active-skin="menu-skin-dark"> <span class="toggle-bars__column">
+                                            <span class="toggle-bars__bar-lines">
+                                                <span class="toggle-bars__bar-line toggle-bars__bar-line--top"></span>
+                                                <span
+                                                    class="toggle-bars__bar-line toggle-bars__bar-line--middle"></span>
+                                                <span
+                                                    class="toggle-bars__bar-line toggle-bars__bar-line--bottom"></span>
+                                            </span>
+                                        </span>
+                                    </a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="fullscreen-menu full-screen-menu menu-open-effect-fade menu-skin-light has-fullmenu-footer translucent-background">
+                <div class="fullscreen-menu-navigation">
+                    <div class="container">
+                        <nav>
+                            <ul id="menu-main-menu-1" class="menu">
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-4174">
+                                    <a href="https://demo.kaliumtheme.com/architecture/"><span>Home</span></a>
+                                    <ul class="sub-menu">
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4514">
+                                            <a href="https://demo.kaliumtheme.com/architecture/home-two/"><span>Home
+                                                    Two</span></a></li>
+                                    </ul>
+                                </li>
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3283 current_page_item menu-item-3285">
+                                    <a href="https://demo.kaliumtheme.com/architecture/our-projects/"
+                                        aria-current="page"><span>Projects</span></a></li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3441"><a
+                                        href="https://demo.kaliumtheme.com/architecture/studio/"><span>Studio</span></a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3847"><a
+                                        href="https://demo.kaliumtheme.com/architecture/news/"><span>News</span></a>
+                                </li>
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3442">
+                                    <a
+                                        href="https://demo.kaliumtheme.com/architecture/contact/"><span>Contact</span></a>
+                                    <ul class="sub-menu">
+                                        <li
+                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4024">
+                                            <a href="https://demo.kaliumtheme.com/architecture/contact-two/"><span>Contact
+                                                    Two</span></a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3585"><a
+                                        target="_blank" rel="noopener"
+                                        href="https://1.envato.market/KYm9a"><span>Purchase ➝</span></a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="fullscreen-menu-footer">
+                    <div class="container">
+                        <div class="right-part">
+                            <ul class="social-networks rounded">
+                                <li><a href="https://www.facebook.com/laboratorcreative" target="_blank"
+                                        class="facebook" title="Facebook" aria-label="Facebook" rel="noopener"><i
+                                            class="fab fa-facebook"></i><span class="name">Facebook</span></a></li>
+                                <li><a href="https://www.instagram.com/laboratorcreative" target="_blank"
+                                        class="instagram" title="Instagram" aria-label="Instagram" rel="noopener"><i
+                                            class="fab fa-instagram"></i><span class="name">Instagram</span></a></li>
+                                <li><a href="https://twitter.com/thelaborator" target="_blank" class="twitter"
+                                        title="Twitter" aria-label="Twitter" rel="noopener"><i
+                                            class="fab fa-x-twitter"></i><span class="name">Twitter</span></a></li>
+                                <li><a href="#" target="_blank" class="houzz" title="Houzz" aria-label="Houzz"
+                                        rel="noopener"><i class="fab fa-houzz"></i><span class="name">Houzz</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="left-part">
+                            © Copyright 2024 — <a href="https://1.envato.market/KYm9a" target="_blank"
+                                rel="noopener">Kalium Theme</a> by <a href="https://laborator.co" target="_blank"
+                                rel="noopener">Laborator</a> </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="vc-container">
+            <div class="wpb-content-wrapper">
+                <div class="vc-row-container container">
+                    <div class="vc_row wpb_row vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <style data-appended-custom-css="true">
+                                        #projects-1.portfolio-holder .item-box .photo .on-hover {
+                                            background-color: rgba(255, 255, 255, 0.75) !important;
+                                        }
+                                    </style>
+                                    <style data-appended-custom-css="true">
+                                        #projects-1.portfolio-holder .item-box .thumb .hover-state {
+                                            background-color: rgba(255, 255, 255, 0.9) !important;
+                                        }
+                                    </style>
+                                    <div id="projects-1-container"
+                                        class="lab-portfolio-items portfolio-container-and-title portfolio-loop-layout-type-2  projects-page container">
+                                        <div
+                                            class="portfolio-title-holder portfolio-title-holder--update-category-descriptions">
+                                            <div class="pt-column pt-column-title">
+                                                <div class="section-title no-bottom-margin">
+                                                    <h2>Projects</h2>
+                                                    <div class="term-description">
+                                                        <p>What we&#8217;ve done and more projects.<br />
+                                                            Structural engineering, city urbanism and more.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pt-column pt-filters">
+                                                <div class="product-filter">
+                                                    <ul class="portfolio-root-categories">
+                                                        <li class="portfolio-category-all active">
+                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/"
+                                                                data-term="*" data-title="Projects"
+                                                                data-term-description="&lt;p&gt;What we&#8217;ve done and more projects.&lt;br /&gt;
+Structural engineering, city urbanism and more.&lt;/p&gt;
+">All</a>
+                                                        </li>
+                                                        <li class="portfolio-category-item portfolio-category-exterior">
+                                                            <a href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/exterior/"
+                                                                data-term="exterior" data-term-description>Exterior</a>
+                                                        </li>
+                                                        <li
+                                                            class="portfolio-category-item portfolio-category-interior-design">
+                                                            <a href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/interior-design/"
+                                                                data-term="interior-design"
+                                                                data-term-description>Interior Design</a>
+                                                        </li>
+                                                        <li class="portfolio-category-item portfolio-category-planning">
+                                                            <a href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/planning/"
+                                                                data-term="planning" data-term-description>Planning</a>
+                                                        </li>
+                                                        <li class="portfolio-category-item portfolio-category-urbanism">
+                                                            <a href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/urbanism/"
+                                                                data-term="urbanism" data-term-description>Urbanism</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div id="projects-1"
+                                                class="portfolio-holder portfolio-type-2 sort-by-js is-masonry-layout">
+                                                <div class="portfolio-item portfolio-item-type-3 has-padding w6 post-4175 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-exterior portfolio_category-interior-design"
+                                                    data-portfolio-item-id="4175" data-terms="exterior interior-design">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/stairs-universe/"
+                                                                                class="item-link"
+                                                                                aria-label="Stairs Universe">
+                                                                                Stairs Universe </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/exterior/"
+                                                                                data-term="exterior">
+                                                                                Exterior </a>, <a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/interior-design/"
+                                                                                data-term="interior-design">
+                                                                                Interior Design </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/stairs-universe/"
+                                                                    class="item-link" aria-label="Stairs Universe">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:119.85714286%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="839"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-4390 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-700x839.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-700x839.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-250x300.jpg 250w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-768x920.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-855x1024.jpg 855w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-1116x1337.jpg 1116w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-806x966.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5-558x669.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/05/stairs-5.jpg 1200w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-5 has-padding w6 post-2124 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-interior-design"
+                                                    data-portfolio-item-id="2124" data-terms="interior-design">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/londoner/"
+                                                                                class="item-link" aria-label="Londoner">
+                                                                                Londoner </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/interior-design/"
+                                                                                data-term="interior-design">
+                                                                                Interior Design </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="image-placeholder video"
+                                                                    style="padding-bottom: 100.00000000%;"><video
+                                                                        class="video-js-el vjs-default-skin vjs-minimal-skin"
+                                                                        preload="auto"
+                                                                        data-vsetup="{&quot;controlBar&quot;:{&quot;fullscreenToggle&quot;:false,&quot;pictureInPictureToggle&quot;:false}}"
+                                                                        data-autosize="true"
+                                                                        data-autoplay-pause-others="no" playsinline
+                                                                        data-autoplay="on-viewport" muted loop
+                                                                        width="496" height="496"
+                                                                        poster="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2018/04/arch-1.gif">
+                                                                        <source
+                                                                            src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2021/04/arch.mp4"
+                                                                            type="video/mp4" />
+                                                                    </video></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-5 has-padding w6 post-2097 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-planning"
+                                                    data-portfolio-item-id="2097" data-terms="planning">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/mf-residence/"
+                                                                                class="item-link"
+                                                                                aria-label="MF Residence">
+                                                                                MF Residence </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/planning/"
+                                                                                data-term="planning">
+                                                                                Planning </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/mf-residence/"
+                                                                    class="item-link" aria-label="MF Residence">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:66.57142857%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="466"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-3380 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-700x466.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-700x466.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-300x200.jpg 300w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-768x512.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-1024x682.jpg 1024w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-1116x744.jpg 1116w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-806x537.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2-558x372.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/MF-Architecture-Tree-House-Residence-2.jpg 1280w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-2 has-padding w6 post-3508 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-interior-design"
+                                                    data-portfolio-item-id="3508" data-terms="interior-design">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/south-africa-house/"
+                                                                                class="item-link"
+                                                                                aria-label="South Africa House">
+                                                                                South Africa House </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/interior-design/"
+                                                                                data-term="interior-design">
+                                                                                Interior Design </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/south-africa-house/"
+                                                                    class="item-link" aria-label="South Africa House">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:56.42857143%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="395"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-3511 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-700x395.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-700x395.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-300x169.jpg 300w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-768x434.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-1024x579.jpg 1024w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-1612x911.jpg 1612w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-1116x631.jpg 1116w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-806x455.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1-558x315.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/SAOTAfirstcrescent1.jpg 1724w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-1 has-padding w6 post-2115 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-planning"
+                                                    data-portfolio-item-id="2115" data-terms="planning">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/casablanca/"
+                                                                                class="item-link"
+                                                                                aria-label="Casablanca">
+                                                                                Casablanca </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/planning/"
+                                                                                data-term="planning">
+                                                                                Planning </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/casablanca/"
+                                                                    class="item-link" aria-label="Casablanca">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:134.28571429%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="940"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-3361 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-700x940.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-700x940.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-223x300.jpg 223w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-768x1032.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-762x1024.jpg 762w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-806x1083.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2-558x749.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/Eichler-in-Marinwood-Shoup-Building-Lab-2.jpg 953w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-5 has-padding w6 post-2108 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-exterior portfolio_category-planning"
+                                                    data-portfolio-item-id="2108" data-terms="exterior planning">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/in-the-woods/"
+                                                                                class="item-link"
+                                                                                aria-label="In The Woods">
+                                                                                In The Woods </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/exterior/"
+                                                                                data-term="exterior">
+                                                                                Exterior </a>, <a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/planning/"
+                                                                                data-term="planning">
+                                                                                Planning </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/in-the-woods/"
+                                                                    class="item-link" aria-label="In The Woods">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:66.57142857%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="466"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-3453 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-700x466.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-700x466.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-300x200.jpg 300w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-768x512.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-1024x682.jpg 1024w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-1612x1074.jpg 1612w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-1116x744.jpg 1116w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-806x537.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01-558x372.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/03/150223_brays_island_sc_modern_i_01.jpg 1885w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="portfolio-item portfolio-item-type-1 has-padding w6 post-3509 portfolio type-portfolio status-publish has-post-thumbnail hentry portfolio_category-exterior portfolio_category-urbanism"
+                                                    data-portfolio-item-id="3509" data-terms="exterior urbanism">
+                                                    <div class="item-box-container">
+                                                        <div class="item-box wow fadeIn">
+                                                            <div class="thumb">
+                                                                <div
+                                                                    class="hover-state padding hover-eff-fade-slide position-bottom-left hover-full hover-style-white opacity-no">
+                                                                    <div class="info">
+                                                                        <h3>
+                                                                            <a href="https://demo.kaliumtheme.com/architecture/projects/penthouse-boston/"
+                                                                                class="item-link"
+                                                                                aria-label="Penthouse Boston">
+                                                                                Penthouse Boston </a>
+                                                                        </h3>
+                                                                        <p class="terms"><a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/exterior/"
+                                                                                data-term="exterior">
+                                                                                Exterior </a>, <a
+                                                                                href="https://demo.kaliumtheme.com/architecture/our-projects/projects-category/urbanism/"
+                                                                                data-term="urbanism">
+                                                                                Urbanism </a></p>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="https://demo.kaliumtheme.com/architecture/projects/penthouse-boston/"
+                                                                    class="item-link" aria-label="Penthouse Boston">
+                                                                    <span class="image-placeholder"
+                                                                        style="padding-bottom:64.71428571%;background-color:rgba(255,255,255,0)">
+                                                                        <style>
+                                                                            .image-placeholder>.loader {
+                                                                                left: px;
+                                                                                right: px;
+                                                                                top: px;
+                                                                                bottom: px;
+                                                                            }
+
+                                                                            .modern-circular .circular .path {
+                                                                                stroke: #000000
+                                                                            }
+                                                                        </style><span class="loader align-center"
+                                                                            data-id="modern-circular"><span
+                                                                                class="loader-row"><span
+                                                                                    class="loader-inner modern-circular"><svg
+                                                                                        class="circular"
+                                                                                        viewBox="25 25 50 50">
+                                                                                        <circle class="path" cx="50"
+                                                                                            cy="50" r="20" fill="none"
+                                                                                            stroke-width="3"
+                                                                                            stroke-miterlimit="10" />
+                                                                                    </svg></span></span></span><img
+                                                                            width="700" height="453"
+                                                                            class="attachment-portfolio-img-3 size-portfolio-img-3 img-3369 lazyload"
+                                                                            alt
+                                                                            data-src="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-700x453.jpg"
+                                                                            data-srcset="https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-700x453.jpg 700w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-300x194.jpg 300w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-768x497.jpg 768w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-1024x663.jpg 1024w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-1116x723.jpg 1116w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-806x522.jpg 806w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2-558x361.jpg 558w, https://demo.kaliumtheme.com/architecture/wp-content/uploads/2015/04/HAIFA-PENTHOUSE-LEVIN-PACKER-ARCHITECTURE-2.jpg 1280w"
+                                                                            data-sizes="(max-width: 700px) 100vw, 700px" />
+                                                                    </span> </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <script type="text/javascript">
+                                                var portfolioContainers = portfolioContainers || [];
+                                                portfolioContainers.push({ "instanceId": "projects-1", "instanceAlias": "projects", "baseQuery": { "post_type": ["portfolio"], "post_status": "publish", "posts_per_page": 12, "orderby": "date", "page": "", "paged": 0, "meta_query": [{ "key": "_thumbnail_id", "compare": "EXISTS" }] }, "vcAttributes": { "portfolio_query": "size:12|order_by:date|post_type:portfolio", "title": "Projects", "title_tag": "h2", "description": "What we've done and more projects.<br \/>\nStructural engineering, city urbanism and more.", "category_filter": "yes", "default_filter_category": "default", "filter_category_hide_all": "", "portfolio_type": "type-2", "columns": "inherit", "reveal_effect": "fade", "portfolio_spacing": "inherit", "dynamic_image_height": "yes", "portfolio_full_width_title_container": "yes", "portfolio_full_width": "inherit", "pagination_type": "static", "more_link": "", "endless_auto_reveal": "", "endless_show_more_button_text": "Show More", "endless_no_more_items_button_text": "No more portfolio items to show", "endless_per_page": "", "el_class": "projects-page", "css": "" }, "postId": 0, "count": 7, "countByTerms": { "exterior": 3, "interior-design": 3, "planning": 3, "urbanism": 1 }, "lightboxData": null, "filterPushState": false });
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer" role="contentinfo" class="site-footer main-footer footer-bottom-horizontal">
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-content-right">
+                        <ul class="social-networks textual colored-hover">
+                            <li><a href="https://www.facebook.com/laboratorcreative" target="_blank" class="facebook"
+                                    title="Facebook" aria-label="Facebook" rel="noopener"><i
+                                        class="fab fa-facebook"></i><span class="name">Facebook</span></a></li>
+                            <li><a href="https://www.instagram.com/laboratorcreative" target="_blank" class="instagram"
+                                    title="Instagram" aria-label="Instagram" rel="noopener"><i
+                                        class="fab fa-instagram"></i><span class="name">Instagram</span></a></li>
+                            <li><a href="https://twitter.com/thelaborator" target="_blank" class="twitter"
+                                    title="Twitter" aria-label="Twitter" rel="noopener"><i
+                                        class="fab fa-x-twitter"></i><span class="name">Twitter</span></a></li>
+                            <li><a href="#" target="_blank" class="houzz" title="Houzz" aria-label="Houzz"
+                                    rel="noopener"><i class="fab fa-houzz"></i><span class="name">Houzz</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-content-left">
+                        <div class="copyrights site-info">
+                            <p>© Copyright 2024 — <a href="https://1.envato.market/KYm9a" target="_blank"
+                                    rel="noopener">Kalium Theme</a> by <a href="https://laborator.co" target="_blank"
+                                    rel="noopener">Laborator</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script
+        type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Organization","name":"Architecture","url":"https:\/\/demo.kaliumtheme.com\/architecture","logo":"https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/uploads\/2018\/05\/logo4.png"}</script>
+    <style>
+        .buy-kalium-fixed {
+            display: flex !important;
+            position: fixed;
+            align-items: center;
+            left: 0;
+            bottom: 0;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            background-color: #111;
+            border-radius: 25px;
+            padding: 14px 18px;
+            z-index: 100000;
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+            line-height: 1;
+            transition: background-color .3s
+        }
+
+        .buy-kalium-fixed i {
+            display: block;
+            width: 16px;
+            margin-right: 10px
+        }
+
+        .buy-kalium-fixed i svg {
+            display: block
+        }
+
+        .buy-kalium-fixed i svg path {
+            transition: all .3s
+        }
+
+        .buy-kalium-fixed span {
+            color: #fff;
+            font-size: 16px;
+            line-height: 1;
+            transition: color .3s
+        }
+
+        .buy-kalium-fixed:hover {
+            background-color: #82b541;
+            text-decoration: none
+        }
+
+        .buy-kalium-fixed:hover i svg path {
+            fill: #fff
+        }
+
+        @media screen and (max-width: 992px) {
+            .buy-kalium-fixed {
+                display: none
+            }
+        }
+    </style>
+    <a href="https://demo.kaliumtheme.com/architecture/buy-kalium" target="_blank" rel="noopener nofollow"
+        class="buy-kalium-fixed">
+        <i><svg viewBox="0 0 62 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M54.4726 3.04156C44.8171 -8.2888 13.5633 13.6622 13.749 41.9247C13.7492 42.2134 13.6548 42.4941 13.4802 42.7239C13.3056 42.9536 13.0605 43.1196 12.7825 43.1964C12.5045 43.2731 12.209 43.2564 11.9415 43.1488C11.6739 43.0412 11.449 42.8486 11.3014 42.6006C8.0799 35.6059 7.66003 27.6408 10.1282 20.3455C10.2456 20.0693 10.2576 19.7597 10.162 19.4752C10.0665 19.1908 9.86994 18.9513 9.60972 18.8023C9.3495 18.6533 9.0437 18.6051 8.75032 18.6668C8.45695 18.7286 8.19642 18.896 8.01815 19.1373C2.85332 24.7197 -0.0110427 32.0513 3.19946e-05 39.6603C3.19946e-05 59.5497 16.4752 70.3055 30.3001 69.9929C72.9396 69.0212 63.0815 13.1468 54.4726 3.04156Z"
+                    fill="#80B341" />
+            </svg></i>
+        <span>Buy Kalium</span>
+    </a>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.buy-kalium-fixed').on('click', function () {
+                ga(ga.getAll()[0].get('name') + '.send', 'event', 'Kalium Demos Button', 'Buy Kalium', 'https://demo.kaliumtheme.com/architecture/buy-kalium');
+            });
+        });
+    </script>
+
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return;
+            n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n;
+            n.push = n;
+            n.loaded = !0;
+            n.version = '2.0';
+            n.queue = [];
+            t = b.createElement(e);
+            t.async = !0;
+            t.src = v;
+            s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window,
+            document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '261506237612914'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+
+        fbq('track', 'ViewContent', {
+            id: 'architecture',
+            title: 'Architecture - Demo Content',
+            categories: ['demo-content'],
+        });
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=261506237612914&ev=PageView&noscript=1" />
+    </noscript>
+
+    <a href="#top" class="go-to-top position-bottom-center rounded" data-type="footer" data-val="footer">
+        <i class="flaticon-bottom4"></i>
+    </a>
+    <script type="text/html" id="wpb-modifications"> window.wpbCustomElement = 1; </script>
+    <link rel="stylesheet" id="kalium-videojs-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/video-js/video-js.min.css?ver=3.12.001"
+        media="all" />
+    <link rel="stylesheet" id="kalium-fontawesome-css-css"
+        href="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/font-awesome/css/all.min.css?ver=3.12.001"
+        media="all" />
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/gsap/gsap.min.js?ver=3.12.001"
+        id="kalium-gsap-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/gsap/ScrollToPlugin.min.js?ver=3.12.001"
+        id="kalium-gsap-scrollto-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/scrollmagic/ScrollMagic.min.js?ver=3.12.001"
+        id="kalium-scrollmagic-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/scrollmagic/plugins/animation.gsap.min.js?ver=3.12.001"
+        id="kalium-scrollmagic-gsap-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=7.5"
+        id="wpb_composer_front_js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/metafizzy/isotope.pkgd.min.js?ver=3.12.001"
+        id="kalium-metafizzy-isotope-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/metafizzy/packery-mode.pkgd.min.js?ver=3.12.001"
+        id="kalium-metafizzy-packery-js-js"></script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/vendors/video-js/video.min.js?ver=3.12.001"
+        id="kalium-videojs-js-js"></script>
+    <script type="text/javascript" id="kalium-main-js-js-before">
+        /* <![CDATA[ */
+        var _k = _k || {}; _k.enqueueAssets = { "js": { "light-gallery": [{ "src": "https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/themes\/kalium\/assets\/vendors\/light-gallery\/lightgallery-all.min.js" }], "videojs": [{ "src": "https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/themes\/kalium\/assets\/vendors\/video-js\/video.min.js" }] }, "css": { "light-gallery": [{ "src": "https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/themes\/kalium\/assets\/vendors\/light-gallery\/css\/lightgallery.min.css" }, { "src": "https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/themes\/kalium\/assets\/vendors\/light-gallery\/css\/lg-transitions.min.css" }], "videojs": [{ "src": "https:\/\/demo.kaliumtheme.com\/architecture\/wp-content\/themes\/kalium\/assets\/vendors\/video-js\/video-js.min.css" }] } };
+        var _k = _k || {}; _k.require = function (e) { var t = e instanceof Array ? e : [e], r = function (e) { var t, t; e.match(/\.js(\?.*)?$/) ? (t = document.createElement("script")).src = e : ((t = document.createElement("link")).rel = "stylesheet", t.href = e); var r = !1, a = jQuery("[data-deploader]").each((function (t, a) { e != jQuery(a).attr("src") && e != jQuery(a).attr("href") || (r = !0) })).length; r || (t.setAttribute("data-deploader", a), jQuery("head").append(t)) }, a; return new Promise((function (e, a) { var n = 0, c = function (t) { if (t && t.length) { var a = t.shift(), n = a.match(/\.js(\?.*)?$/) ? "script" : "text"; jQuery.ajax({ dataType: n, url: a, cache: !0 }).success((function () { r(a) })).always((function () { a.length && c(t) })) } else e() }; c(t) })) };;
+        /* ]]> */
+    </script>
+    <script type="text/javascript"
+        src="https://demo.kaliumtheme.com/architecture/wp-content/themes/kalium/assets/js/main.min.js?ver=3.12.001"
+        id="kalium-main-js-js"></script>
+    <script></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var $ = jQuery;
+
+            $('.menu-item a').each(function () {
+                var $el = $(this),
+                    text = $el.text().trim().toLowerCase();
+
+                if (- 1 !== $.inArray(text, ['buy', 'buy!', 'buy now', 'buy now!', 'purchase'])) {
+                    $el.on('click', function (ev) {
+                        fbq('track', 'AddToCart', {
+                            value: 60,
+                            currency: 'USD',
+                            contents: [
+                                {
+                                    id: '10860525_23',
+                                    quantity: 1,
+                                    item_price: 60,
+                                },
+                            ],
+                            content_type: 'product',
+                        });
+                    });
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
